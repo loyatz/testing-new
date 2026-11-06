@@ -1,0 +1,8 @@
+vol.py --plugins=profiles/ --info | grep MacSierra
+
+MacSierra_10_12_0_16A323x64
+
+vol.py --plugins=profiles/ -f /home/iml-user/memoryimage.raw --profile=MacSierra_10_12_0_16A323x64 
+
+vol.py --plugins=profiles/ -f /home/iml-user/memoryimage.raw --profile=MacSierra_10_12_0_16A323x64 mac_pslist
+
